@@ -1,0 +1,8 @@
+﻿item,path,exists,is_file,is_directory
+Meta.csv,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Meta.csv,True,True,False
+Test.csv,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Test.csv,True,True,False
+Train.csv,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Train.csv,True,True,False
+Meta folder,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Meta,True,False,True
+Test folder,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Test,True,False,True
+Train folder,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Train,True,False,True
+Train class folders 0..42,D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs\Train,True,False,True

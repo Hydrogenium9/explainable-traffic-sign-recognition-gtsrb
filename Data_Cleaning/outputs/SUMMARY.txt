@@ -1,0 +1,29 @@
+GTSRB DATASET INSPECTION SUMMARY
+========================================
+Dataset root: D:\SoftwareEngineering\Machine Learning\Traffic_Sign_Project\Datasets\traffic_signs
+Images found: 51,882
+Readable images: 51,882
+Corrupt/unreadable images: 0
+CSV issues: 0
+SHA-256 duplicate check enabled: True
+
+Images by split:
+  Meta: 43
+  Train: 39,209
+  Test: 12,630
+
+Structure checks:
+  OK: Meta.csv
+  OK: Test.csv
+  OK: Train.csv
+  OK: Meta folder
+  OK: Test folder
+  OK: Train folder
+  OK: Train class folders 0..42
+
+Important:
+1. The script does not delete files in safe mode.
+2. LibreOffice .~lock...# files are ignored.
+3. Review CSV reports before changing the dataset.
+4. Cross-split duplicates may indicate data leakage.
+5. Low sharpness/brightness flags are only heuristics.

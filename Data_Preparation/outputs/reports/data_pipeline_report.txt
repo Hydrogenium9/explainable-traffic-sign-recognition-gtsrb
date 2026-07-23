@@ -1,0 +1,89 @@
+GTSRB DATA PREPARATION REPORT
+==========================================
+Python: 3.13.14
+Platform: Windows-11-10.0.26200-SP0
+TensorFlow: 2.21.0
+Physical devices: [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+
+Image shape: 224x224x3
+Batch size: 32
+Number of classes: 43
+Normalization: zero_one
+Random seed: 42
+
+Training images: 31,372
+Validation images: 7,829
+Test images: 12,630
+
+Train/validation path overlap: 0
+Train/test path overlap: 0
+Validation/test path overlap: 0
+
+Batch checks:
+  train batch shape: (32, 224, 224, 3)
+  train pixel range: 0.000000 .. 1.000000
+  train label range in batch: 1..8
+  validation batch shape: (32, 224, 224, 3)
+  validation pixel range: 0.043269 .. 1.000000
+  validation label range in batch: 0..1
+  test batch shape: (32, 224, 224, 3)
+  test pixel range: 0.000156 .. 1.000000
+  test label range in batch: 1..38
+
+Pipeline benchmark:
+  train: 10 batches in 1.765 s; 181.3 images/s
+  validation: 10 batches in 0.692 s; 462.4 images/s
+  test: 10 batches in 0.667 s; 480.1 images/s
+
+Class weights:
+  0: 4.053230
+  1: 0.412193
+  2: 0.405323
+  3: 0.639984
+  4: 0.458856
+  5: 0.486388
+  6: 2.210853
+  7: 0.639984
+  8: 0.639984
+  9: 0.623574
+  10: 0.450359
+  11: 0.694839
+  12: 0.434275
+  13: 0.419300
+  14: 1.172960
+  15: 1.430552
+  16: 2.210853
+  17: 0.810646
+  18: 0.759981
+  19: 4.053230
+  20: 2.431938
+  21: 2.702153
+  22: 2.431938
+  23: 1.737099
+  24: 3.474197
+  25: 0.607984
+  26: 1.519961
+  27: 4.053230
+  28: 1.737099
+  29: 3.474197
+  30: 2.026615
+  31: 1.158066
+  32: 4.053230
+  33: 1.351077
+  34: 2.210853
+  35: 0.759981
+  36: 2.431938
+  37: 4.053230
+  38: 0.442171
+  39: 3.039922
+  40: 2.431938
+  41: 4.053230
+  42: 4.053230
+
+Decisions:
+1. Train receives augmentation; validation and test do not.
+2. Images are resized to 224x224 RGB.
+3. No horizontal or vertical flips are used.
+4. The official test set remains untouched.
+5. Images are processed on the fly; no enlarged copy is saved.
+6. Labels remain integer ClassId values for sparse loss.

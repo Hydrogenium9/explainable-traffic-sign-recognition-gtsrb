@@ -1,0 +1,62 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+kaggle.json
+*.pem
+*.key
+
+# Local datasets
+Datasets/
+datasets/
+data/raw/
+
+# Trained models
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+
+# Large generated outputs
+**/predictions/
+**/classification_reports/
+**/heatmap_arrays/
+**/attribution_arrays/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/

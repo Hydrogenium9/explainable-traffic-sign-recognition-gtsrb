@@ -1,0 +1,13 @@
+{
+  "highest_accuracy": "ConvNeXtTiny",
+  "highest_macro_precision": "ConvNeXtTiny",
+  "highest_macro_recall": "ConvNeXtTiny",
+  "highest_macro_f1": "ConvNeXtTiny",
+  "highest_weighted_f1": "ConvNeXtTiny",
+  "highest_top3_accuracy": "ConvNeXtTiny",
+  "smallest_model_file": "Custom CNN",
+  "fewest_parameters": "Custom CNN",
+  "lowest_recorded_latency": "EfficientNetV2B0",
+  "highest_recorded_throughput": "EfficientNetV2B0",
+  "shortest_recorded_training_time": "EfficientNetV2B0"
+}

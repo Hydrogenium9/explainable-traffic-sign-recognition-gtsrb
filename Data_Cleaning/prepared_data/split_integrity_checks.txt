@@ -1,0 +1,14 @@
+Original Train.csv rows: 39,209
+Excluded exact Train/Test duplicates: 8
+Clean rows: 39,201
+Training rows: 31,372
+Validation rows: 7,829
+Validation share: 19.97%
+Training groups: 1,046
+Validation groups: 261
+Path overlap: 0
+Group overlap: 0
+All 43 classes in training: True
+All 43 classes in validation: True
+Official Test.csv was not modified.
+Original image files were not deleted or moved.
